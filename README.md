@@ -56,9 +56,9 @@
             <ul>
                 <li><a onclick="loadContent('home')">Eloheh Home</a></li>
                 <li><a onclick="loadExternal('https://adinayar.github.io/Eloheh1-2/')">Eloheh History/Story</a></li>
-                <li><a onclick="loadContent('page2')">Eloheh Products</a></li>
-                <li><a onclick="loadContent('page3')">Eloheh Services</a></li>
-                <li><a onclick="loadContent('page4')">Eloheh Reviews</a></li>
+                <li><a onclick="loadExternal('https://tanishamittal22.github.io/MGMT382/')">Eloheh Products</a></li>
+                <li><a onclick="loadExternal('https://hlumpcik04.github.io/')">Eloheh Services</a></li>
+                <li><a onclick="loadExternal('https://legendarywill101.github.io/Eloheh-Inc-Company-Reviews/')">Eloheh Reviews</a></li>
             </ul>
             <p class="last-modified">Last modified: <span id="nav-modified"></span></p>
         </div>
@@ -82,21 +82,6 @@
                 <p style="font-size: 1.0em; color: #f0e68c; font-family: 'Times New Roman', Times, serif; margin-top: 20px;">
                     Last modified: ${new Date(document.lastModified).toLocaleString()}
                 </p>
-            `,
-            page2: `
-                <h1>Eloheh Products</h1>
-                <p>This is the content of Eloheh Products.</p>
-                <p class="last-modified">Last modified: ${new Date(document.lastModified).toLocaleString()}</p>
-            `,
-            page3: `
-                <h1>Eloheh Services</h1>
-                <p>This is the content of Eloheh Services.</p>
-                <p class="last-modified">Last modified: ${new Date(document.lastModified).toLocaleString()}</p>
-            `,
-            page4: `
-                <h1>Eloheh Reviews</h1>
-                <p>This is the content of Eloheh Reviews.</p>
-                <p class="last-modified">Last modified: ${new Date(document.lastModified).toLocaleString()}</p>
             `
         };
 
