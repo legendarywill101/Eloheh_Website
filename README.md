@@ -20,10 +20,9 @@
         }
         .main {
             width: 75%;
-            padding: 20px;
+            padding: 0;
             box-sizing: border-box;
-            overflow-y: auto;
-            color: #000000;
+            overflow: hidden;
         }
         .nav ul {
             list-style-type: none;
@@ -37,7 +36,13 @@
             color: #000;
             cursor: pointer;
         }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
         .last-modified {
+            font-size: 0.8em;
             color: #f0e68c;
             font-family: 'Times New Roman', Times, serif;
             margin-top: 20px;
@@ -50,7 +55,7 @@
             <h3>Navigation</h3>
             <ul>
                 <li><a onclick="loadContent('home')">Eloheh Home</a></li>
-                <li><a href="https://adinayar.github.io/Eloheh1-2/" target="_blank">Eloheh History/Story</a></li>
+                <li><a onclick="loadExternal('https://adinayar.github.io/Eloheh1-2/')">Eloheh History/Story</a></li>
                 <li><a onclick="loadContent('page2')">Eloheh Products</a></li>
                 <li><a onclick="loadContent('page3')">Eloheh Services</a></li>
                 <li><a onclick="loadContent('page4')">Eloheh Reviews</a></li>
@@ -58,8 +63,7 @@
             <p class="last-modified">Last modified: <span id="nav-modified"></span></p>
         </div>
         <div class="main">
-            <div id="content"></div>
-            <p class="last-modified">Last modified: <span id="main-modified"></span></p>
+            <iframe id="content-frame" srcdoc=""></iframe>
         </div>
     </div>
 
@@ -75,24 +79,35 @@
                     <li>Holden</li>
                     <li>Tanisha</li>
                 </ul>
+                <p class="last-modified">Last modified: ${new Date(document.lastModified).toLocaleString()}</p>
             `,
             page2: `
                 <h1>Eloheh Products</h1>
                 <p>This is the content of Eloheh Products.</p>
+                <p class="last-modified">Last modified: ${new Date(document.lastModified).toLocaleString()}</p>
             `,
             page3: `
                 <h1>Eloheh Services</h1>
                 <p>This is the content of Eloheh Services.</p>
+                <p class="last-modified">Last modified: ${new Date(document.lastModified).toLocaleString()}</p>
             `,
             page4: `
                 <h1>Eloheh Reviews</h1>
                 <p>This is the content of Eloheh Reviews.</p>
+                <p class="last-modified">Last modified: ${new Date(document.lastModified).toLocaleString()}</p>
             `
         };
 
         function loadContent(page) {
-            document.getElementById('content').innerHTML = pages[page];
-            showLastModified('main-modified');
+            const frame = document.getElementById('content-frame');
+            frame.removeAttribute('src');
+            frame.setAttribute('srcdoc', pages[page]);
+        }
+
+        function loadExternal(url) {
+            const frame = document.getElementById('content-frame');
+            frame.removeAttribute('srcdoc');
+            frame.setAttribute('src', url);
         }
 
         function showLastModified(id) {
