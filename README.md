@@ -51,7 +51,7 @@
             <h3>Navigation</h3>
             <ul>
                 <li><a onclick="loadContent('home')">Home</a></li>
-                <li><a onclick="loadContent('page1')">History</a></li>
+                <li><a onclick="loadContent('page1')">History/Story</a></li>
                 <li><a onclick="loadContent('page2')">Products</a></li>
                 <li><a onclick="loadContent('page3')">Services</a></li>
                 <li><a onclick="loadContent('page4')">Reviews</a></li>
