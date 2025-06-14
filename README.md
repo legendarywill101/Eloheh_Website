@@ -14,7 +14,7 @@
         }
         .nav {
             width: 25%;
-            background-color: #89cff0;
+            background-color: #87CEEB;
             padding: 20px;
             box-sizing: border-box;
         }
