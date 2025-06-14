@@ -51,7 +51,7 @@
             <h3>Navigation</h3>
             <ul>
                 <li><a onclick="loadContent('home')">Eloheh Home</a></li>
-                <li><a onclick="loadContent('page1')">Eloheh History/Story</a></li>
+                <li><a href="https://adinayar.github.io/Eloheh1-2/" target="_blank">Eloheh History/Story</a></li>
                 <li><a onclick="loadContent('page2')">Eloheh Products</a></li>
                 <li><a onclick="loadContent('page3')">Eloheh Services</a></li>
                 <li><a onclick="loadContent('page4')">Eloheh Reviews</a></li>
@@ -77,21 +77,17 @@
                     <li>Tanisha</li>
                 </ul>
             `,
-            page1: `
-                <h1>Page 1</h1>
-                <p>This is the content of Page 1.</p>
-            `,
             page2: `
-                <h1>Page 2</h1>
-                <p>This is the content of Page 2.</p>
+                <h1>Eloheh Products</h1>
+                <p>This is the content of Eloheh Products.</p>
             `,
             page3: `
-                <h1>Page 3</h1>
-                <p>This is the content of Page 3.</p>
+                <h1>Eloheh Services</h1>
+                <p>This is the content of Eloheh Services.</p>
             `,
             page4: `
-                <h1>Page 4</h1>
-                <p>This is the content of Page 4.</p>
+                <h1>Eloheh Reviews</h1>
+                <p>This is the content of Eloheh Reviews.</p>
             `
         };
 
