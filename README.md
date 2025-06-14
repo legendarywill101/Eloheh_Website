@@ -47,9 +47,9 @@
   <img src="https://drive.google.com/thumbnail?id=1-e4vj9zWNe5zxD9D4i75zwqh9oJNJRp_" alt="Management Team" width="200" />
   <p>Meet the <span class="bold underline">leaders</span> who drive our vision and mission:</p>
   <ul>
-    <li><span class="italic">John Doe</span> - CEO</li>
-    <li><span class="italic">Jane Smith</span> - COO</li>
-    <li><span class="italic">Emily Johnson</span> - CFO</li>
+    <li><span class="italic">Bruce Wayne</span> - CEO</li>
+    <li><span class="italic">Lucious Fox</span> - COO</li>
+    <li><span class="italic">Jim Gordon</span> - CFO</li>
   </ul>
   <ol>
     <li><span class="purple">John Doe</span> has over 20 years of experience in the healthcare industry.</li>
