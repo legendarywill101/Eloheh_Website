@@ -60,7 +60,7 @@
     <li>Made in small batches with <span class="italic">organic, ethically sourced ingredients</span></li>
   </ul>
 
-  <p><span class="bold">Download our product catalog:</span> <a href="https://drive.google.com/uc?export=download&id=18gWGULhJHKvTcSH-5GL_KnKt3mocrGZT" download" download>Click here to download PDF</a></p>
+  <p><span class="bold">Download our product catalog:</span> <a href="https://drive.google.com/uc?export=download&id=18gWGULhJHKvTcSH-5GL_KnKt3mocrGZT" download>Click here to download PDF</a></p>
 
   <p>Read more on <a href="https://www.healthcare.gov" target="_blank">Healthcare</a>.</p>
 
