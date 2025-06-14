@@ -42,6 +42,7 @@
             border: none;
         }
         .last-modified {
+            font-size: 0.8em;
             color: #f0e68c;
             font-family: 'Times New Roman', Times, serif;
             margin-top: 20px;
@@ -78,7 +79,9 @@
                     <li>Holden</li>
                     <li>Tanisha</li>
                 </ul>
-                <p class="last-modified">Last modified: ${new Date(document.lastModified).toLocaleString()}</p>
+                <p style="font-size: 0.8em; color: #f0e68c; font-family: 'Times New Roman', Times, serif; margin-top: 20px;">
+                    Last modified: ${new Date(document.lastModified).toLocaleString()}
+                </p>
             `,
             page2: `
                 <h1>Eloheh Products</h1>
