@@ -3,7 +3,7 @@
     <title>Team Eloheh - Team 10</title>
     <style>
         body {
-            background-color: #d3d3d3;
+            background-color: #999999;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
