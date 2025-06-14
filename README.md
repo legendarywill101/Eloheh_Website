@@ -22,7 +22,6 @@
       text-decoration: underline;
     }
     .contact {
-      color: #e74c3c;
       font-family: Courier, monospace;
       font-size: 1.1em;
     }
