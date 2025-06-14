@@ -26,8 +26,9 @@
       font-size: 1.3em;
     }
     .last-modified {
-      font-size: 0.7em;
+      font-size: 0.8em;
       color: #f0e68c;
+      font-family: 'Times New Roman', Times, serif;
     }
     .red {
       color: #e74c3c;
