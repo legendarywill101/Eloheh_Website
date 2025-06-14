@@ -23,10 +23,10 @@
     }
     .contact {
       font-family: Courier, monospace;
-      font-size: 1.1em;
+      font-size: 1.3em;
     }
     .last-modified {
-      font-size: 0.9em;
+      font-size: 0.7em;
       color: #f0e68c;
     }
     .red {
