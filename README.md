@@ -47,7 +47,7 @@
 
   <p>At <span class="bold italic red">Eloheh</span>, we are passionate about holistic health. Our mission is to offer <span class="underline">ethical and effective</span> healthcare solutions that support <span class="bold purple">natural healing and everyday wellness</span>.</p>
 
-  <img src="images/herbal-remedy.jpg" alt="Herbal healthcare product" width="320">
+  <img src="https://drive.google.com/thumbnail?id=1-e4vj9zWNe5zxD9D4i75zwqh9oJNJRp_" alt="Healthcare Image" width="200" />
 
   <h2 class="underline bold">Our Bestselling Products</h2>
   <ol>
