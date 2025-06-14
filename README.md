@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Team Eloheh - Team 10</title>
     <style>
         body {
-            background-color: #BD9A7A;
+            background-color: #623412;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -23,6 +24,7 @@
             padding: 20px;
             box-sizing: border-box;
             overflow-y: auto;
+            color: #ffffff;
         }
         .nav ul {
             list-style-type: none;
