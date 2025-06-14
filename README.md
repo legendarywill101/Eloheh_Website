@@ -52,9 +52,9 @@
     <li><span class="italic">Jim Gordon</span> - CFO</li>
   </ul>
   <ol>
-    <li><span class="purple">John Doe</span> has over 20 years of experience in the healthcare industry.</li>
-    <li><span class="red">Jane Smith</span> is known for her strategic vision and leadership.</li>
-    <li><span class="purple">Emily Johnson</span> has a strong background in finance and operations.</li>
+    <li><span class="purple">Oswald Cobbelepot</span> has over 20 years of experience in the healthcare industry.</li>
+    <li><span class="red">Harleen Quinzel</span> is known for her strategic vision and leadership.</li>
+    <li><span class="purple">Pamela Isley</span> has a strong background in finance and operations.</li>
   </ol>
 
   <h2>Contact Us</h2>
