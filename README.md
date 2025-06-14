@@ -1,8 +1,7 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eloheh Company Story and Management Team</title>
+  <meta charset="UTF-8">
+  <title>Eloheh | Healthcare Products</title>
   <style>
     body {
       background-color: #BD9A7A;
@@ -39,32 +38,34 @@
   </style>
 </head>
 <body>
-  <h1>Eloheh Company Story and History</h1>
-  <p>Welcome to <span class="bold underline">Eloheh</span>, your trusted partner in healthcare. Our journey began in <span class="italic">2005</span> with a mission to provide <span class="red">quality healthcare services</span> to everyone. Over the years, we have grown and evolved, but our commitment to excellence remains unchanged. Our team of dedicated professionals works tirelessly to ensure that our clients receive the best care possible.</p>
-  <p>For more information on healthcare, visit <a href="https://www.healthcare.gov" target="_blank">HealthCare.gov</a>.</p>
-  <p>Download our <a href="https://drive.google.com/uc?export=download&id=18gWGULhJHKvTcSH-5GL_KnKt3mocrGZT" download>company brochure</a> for more details.</p>
 
-  <h2>Our Management Team</h2>
-  <img src="https://drive.google.com/thumbnail?id=1-e4vj9zWNe5zxD9D4i75zwqh9oJNJRp_" alt="Management Team" width="200" />
-  <p>Meet the <span class="bold underline">leaders</span> who drive our vision and mission:</p>
-  <ul>
-    <li><span class="italic">Bruce Wayne</span> - CEO</li>
-    <li><span class="italic">Lucious Fox</span> - COO</li>
-    <li><span class="italic">Jim Gordon</span> - CFO</li>
-  </ul>
+  <h1>Eloheh's Trusted Healthcare Products</h1>
+
+  <p>At <span class="bold italic">Eloheh</span>, we are passionate about holistic health. Our mission is to offer <span class="underline">ethical and effective</span> healthcare solutions that support <span class="bold">natural healing and everyday wellness</span>.</p>
+
+  <img src="images/herbal-remedy.jpg" alt="Herbal healthcare product" width="320">
+
+  <h2 class="underline bold">Our Bestselling Products</h2>
   <ol>
-    <li><span class="purple">Oswald Cobbelepot</span> has over 20 years of experience in the healthcare industry.</li>
-    <li><span class="red">Harleen Quinzel</span> is known for her strategic vision and leadership.</li>
-    <li><span class="purple">Pamela Isley</span> has a strong background in finance and operations.</li>
+    <li>🌱 <span class="bold">Immunity Herbal Capsules</span> – A blend of turmeric, ashwagandha, and elderberry</li>
+    <li>🧴 <span class="bold">Soothing Skin Balm</span> – All-natural relief for dryness, irritation, and eczema</li>
+    <li>🩹 <span class="bold">Eco First-Aid Kits</span> – Biodegradable supplies in a reusable hemp pouch</li>
   </ol>
 
-  <h2>Contact Us</h2>
-  <p>If you have any questions or need further information, please <a href="mailto:info@eloheh.com" class="contact">contact me</a>.</p>
+  <h2 class="underline bold">Why Customers Trust Eloheh</h2>
+  <ul>
+    <li>Products formulated by licensed herbalists and nutritionists</li>
+    <li>Certified cruelty-free and vegan</li>
+    <li>Made in small batches with <span class="italic">organic, ethically sourced ingredients</span></li>
+  </ul>
 
-  <p class="last-modified">Last modified: <span id="lastModified"></span></p>
+  <p><span class="bold">Download our product catalog:</span> <a href="docs/eloheh_healthcare_catalog.pdf" download>Click here to download PDF</a></p>
 
-  <script>
-    document.getElementById('lastModified').textContent = document.lastModified;
-  </script>
+  <p>Read more on <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5871211/" target="_blank">the science behind herbal medicine</a>.</p>
+
+  <p><span class="italic">Have a question?</span> <a href="mailto:tanisha@eloheh.com" class="contact">Contact me</a></p>
+
+  <p class="last-modified"><script>document.write("Last modified: " + document.lastModified);</script></p>
+
 </body>
 </html>
