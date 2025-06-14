@@ -50,11 +50,11 @@
         <div class="nav">
             <h3>Navigation</h3>
             <ul>
-                <li><a onclick="loadContent('home')">Home</a></li>
-                <li><a onclick="loadContent('page1')">History/Story</a></li>
-                <li><a onclick="loadContent('page2')">Products</a></li>
-                <li><a onclick="loadContent('page3')">Services</a></li>
-                <li><a onclick="loadContent('page4')">Reviews</a></li>
+                <li><a onclick="loadContent('home')">Eloheh Home</a></li>
+                <li><a onclick="loadContent('page1')">Eloheh History/Story</a></li>
+                <li><a onclick="loadContent('page2')">Eloheh Products</a></li>
+                <li><a onclick="loadContent('page3')">Eloheh Services</a></li>
+                <li><a onclick="loadContent('page4')">Eloheh Reviews</a></li>
             </ul>
             <p class="last-modified">Last modified: <span id="nav-modified"></span></p>
         </div>
