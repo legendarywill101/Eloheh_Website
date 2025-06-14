@@ -51,10 +51,10 @@
             <h3>Navigation</h3>
             <ul>
                 <li><a onclick="loadContent('home')">Home</a></li>
-                <li><a onclick="loadContent('page1')">Page 1</a></li>
-                <li><a onclick="loadContent('page2')">Page 2</a></li>
-                <li><a onclick="loadContent('page3')">Page 3</a></li>
-                <li><a onclick="loadContent('page4')">Page 4</a></li>
+                <li><a onclick="loadContent('page1')">History</a></li>
+                <li><a onclick="loadContent('page2')">Products</a></li>
+                <li><a onclick="loadContent('page3')">Services</a></li>
+                <li><a onclick="loadContent('page4')">Reviews</a></li>
             </ul>
             <p class="last-modified">Last modified: <span id="nav-modified"></span></p>
         </div>
