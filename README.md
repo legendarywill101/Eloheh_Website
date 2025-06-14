@@ -62,7 +62,7 @@
 
   <p><span class="bold">Download our product catalog:</span> <a href="docs/eloheh_healthcare_catalog.pdf" download>Click here to download PDF</a></p>
 
-  <p>Read more on <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5871211/" target="_blank">the science behind herbal medicine</a>.</p>
+  <p>Read more on <a href="https://www.healthcare.gov" target="_blank">Healthcare</a>.</p>
 
   <p><span class="italic">Have a question?</span> <a href="mailto:tanisha@eloheh.com" class="contact">Contact me</a></p>
 
