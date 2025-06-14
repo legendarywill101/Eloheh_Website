@@ -1,47 +1,70 @@
-<html>
+<html lang="en">
 <head>
-    <title>Eloheh - Our Story & Team</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fefefe;
-            color: #333;
-        }
-        h1, h2 {
-            color: #006666;
-        }
-        a {
-            color: darkblue;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eloheh Company Story and Management Team</title>
+  <style>
+    body {
+      background-color: #BD9A7A;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #000000;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .italic {
+      font-style: italic;
+    }
+    .underline {
+      text-decoration: underline;
+    }
+    .contact {
+      color: #e74c3c;
+      font-family: Courier, monospace;
+      font-size: 1.1em;
+    }
+    .last-modified {
+      font-size: 0.9em;
+      color: #f0e68c;
+    }
+    .red {
+      color: #e74c3c;
+    }
+    .purple {
+      color: #7851a9;
+    }
+  </style>
 </head>
 <body>
-    <h1><u><b>Welcome to Eloheh</b></u></h1>
-    <p><i>Caring for people, nurturing wellness.</i></p>
+  <h1>Eloheh Company Story and History</h1>
+  <p>Welcome to <span class="bold underline">Eloheh</span>, your trusted partner in healthcare. Our journey began in <span class="italic">2005</span> with a mission to provide <span class="red">quality healthcare services</span> to everyone. Over the years, we have grown and evolved, but our commitment to excellence remains unchanged. Our team of dedicated professionals works tirelessly to ensure that our clients receive the best care possible.</p>
+  <p>For more information on healthcare, visit <a href="https://www.healthcare.gov" target="_blank">HealthCare.gov</a>.</p>
+  <p>Download our <a href="https://drive.google.com/uc?export=download&id=18gWGULhJHKvTcSH-5GL_KnKt3mocrGZT" download>company brochure</a> for more details.</p>
 
-    <h2><b><font color="darkgreen">Our Company Story</font></b></h2>
-    <p>
-        Founded in 2012, Eloheh began with a mission to make high-quality healthcare more accessible and personalized.
-        From natural wellness products to innovative telehealth solutions, we’ve built our reputation on compassion and care.
-    </p>
+  <h2>Our Management Team</h2>
+  <img src="https://drive.google.com/thumbnail?id=1-e4vj9zWNe5zxD9D4i75zwqh9oJNJRp_" alt="Management Team" width="200" />
+  <p>Meet the <span class="bold underline">leaders</span> who drive our vision and mission:</p>
+  <ul>
+    <li><span class="italic">John Doe</span> - CEO</li>
+    <li><span class="italic">Jane Smith</span> - COO</li>
+    <li><span class="italic">Emily Johnson</span> - CFO</li>
+  </ul>
+  <ol>
+    <li><span class="purple">John Doe</span> has over 20 years of experience in the healthcare industry.</li>
+    <li><span class="red">Jane Smith</span> is known for her strategic vision and leadership.</li>
+    <li><span class="purple">Emily Johnson</span> has a strong background in finance and operations.</li>
+  </ol>
 
-    <ul>
-        <li>2012 – Eloheh is founded by healthcare professionals</li>
-        <li>2016 – Launch of our mobile wellness clinics</li>
-        <li>2020 – National telehealth expansion during the pandemic</li>
-    </ul>
+  <h2>Contact Us</h2>
+  <p>If you have any questions or need further information, please <a href="mailto:info@eloheh.com" class="contact">contact me</a>.</p>
 
-    <h2><b><font color="darkblue">Our Leadership Team</font></b></h2>
-    <ol>
-        <li>Dr. Maya Thompson – CEO & Co-Founder</li>
-        <li>Samuel Chen – Chief Medical Officer</li>
-        <li>Leila Ortiz – Director of Community Outreach</li>
-    </ol>
+  <p class="last-modified">Last modified: <span id="lastModified"></span></p>
 
-    <p><a href="mailto:eloheh@hotmail.com">Contact Me</a></p>
-    <p><a href="https://www.westlafayette.in.gov/our-city/wellness-center" target="_blank">Visit a relevant healthcare site</a></p>
-    <p><a href="eloheh_brochure.pdf" download>Download Our Company Brochure</a></p>
-
-    <p><small>Last modified: <script>document.write(document.lastModified);</script></small></p>
+  <script>
+    document.getElementById('lastModified').textContent = document.lastModified;
+  </script>
 </body>
 </html>
