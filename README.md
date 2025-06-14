@@ -3,7 +3,7 @@
     <title>Team Eloheh - Team 10</title>
     <style>
         body {
-            background-color: #999999;
+            background-color: #BD9A7A;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -14,7 +14,7 @@
         }
         .nav {
             width: 25%;
-            background-color: #BD9A7A;
+            background-color: #999999;
             padding: 20px;
             box-sizing: border-box;
         }
