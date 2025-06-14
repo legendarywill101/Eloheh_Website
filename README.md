@@ -57,7 +57,7 @@
                 <li><a onclick="loadContent('home')">Eloheh Home</a></li>
                 <li><a onclick="loadExternal('https://adinayar.github.io/Eloheh1-2/')">Eloheh Story/History</a></li>
                 <li><a onclick="loadExternal('https://tanishamittal22.github.io/MGMT382/')">Eloheh Products</a></li>
-                <li><a onclick="loadExternal('https://hlumpcik04.github.io/')">Eloheh Services</a></li>
+                <li><a onclick="loadExternal('https://hlumpcik04.github.io/Elohah-Services/')">Eloheh Services</a></li>
                 <li><a onclick="loadExternal('https://legendarywill101.github.io/Eloheh-Inc-Company-Reviews/')">Eloheh Reviews</a></li>
             </ul>
             <p class="last-modified">Last modified: <span id="nav-modified"></span></p>
