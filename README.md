@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title>Team Eloheh - Team 10</title>
     <style>
         body {
-            background-color: #BD9A7A;
+            background-color: #623412;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -15,7 +14,7 @@
         }
         .nav {
             width: 25%;
-            background-color: #623412;
+            background-color: #f4f4f4;
             padding: 20px;
             box-sizing: border-box;
         }
@@ -24,7 +23,7 @@
             padding: 20px;
             box-sizing: border-box;
             overflow-y: auto;
-            color: #ffffff;
+            color: #000000;
         }
         .nav ul {
             list-style-type: none;
@@ -54,6 +53,8 @@
                 <li><a onclick="loadContent('home')">Home</a></li>
                 <li><a onclick="loadContent('page1')">Page 1</a></li>
                 <li><a onclick="loadContent('page2')">Page 2</a></li>
+                <li><a onclick="loadContent('page3')">Page 3</a></li>
+                <li><a onclick="loadContent('page4')">Page 4</a></li>
             </ul>
             <p class="last-modified">Last modified: <span id="nav-modified"></span></p>
         </div>
@@ -83,6 +84,14 @@
             page2: `
                 <h1>Page 2</h1>
                 <p>This is the content of Page 2.</p>
+            `,
+            page3: `
+                <h1>Page 3</h1>
+                <p>This is the content of Page 3.</p>
+            `,
+            page4: `
+                <h1>Page 4</h1>
+                <p>This is the content of Page 4.</p>
             `
         };
 
