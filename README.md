@@ -42,7 +42,6 @@
   </style>
 </head>
 <body>
-
   <h1>Eloheh's Trusted Healthcare Products</h1>
 
   <p>At <span class="bold italic red">Eloheh</span>, we are passionate about holistic health. Our mission is to offer <span class="underline">ethical and effective</span> healthcare solutions that support <span class="bold purple">natural healing and everyday wellness</span>.</p>
