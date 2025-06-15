@@ -74,10 +74,10 @@
                 <h2>Team #10</h2>
                 <p>Team Members:</p>
                 <ul>
-                    <li>William</li>
-                    <li>Adi</li>
-                    <li>Holden</li>
-                    <li>Tanisha</li>
+                    <li>William Napier</li>
+                    <li>Adi Nayar</li>
+                    <li>Holden Lumpcik</li>
+                    <li>Tanisha Mittal</li>
                 </ul>
                 <p style="font-size: 1.0em; color: #f0e68c; font-family: 'Times New Roman', Times, serif; margin-top: 20px;">
                     Last modified: ${new Date(document.lastModified).toLocaleString()}
